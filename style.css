@@ -1,0 +1,71 @@
+.container {
+    margin-bottom: 100px;
+}
+.blue-bg {
+    background-color: #abd8f3e8;
+    border-radius: 10px;
+}
+.carousel-item {
+    padding: 20px 40px;
+}
+.price {
+    color: #ff4a4a;
+    text-shadow: 0.3px 2px 0.9px rosybrown;
+}
+/*  */
+/* .buy-now-button {
+    background-image: linear-gradient(to bottom, rgb(230, 102, 102) 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;    
+} */
+.buy-now-button {
+    margin-top: 12px;
+    /* margin-left: 7rem; */
+    left: 28px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    /* justify-content: center; */
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5em 1.3em;
+    border: 3px solid #FF0072;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #FF0072;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+.buy-now-button::before {
+    transition: 0.5s all ease;
+    position: absolute;
+    justify-items: center;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #FF0072;
+    z-index: -1;
+} 
+.buy-now-button:hover, .buy-now-button:focus {
+    color: white;
+}
+   
+.buy-now-button:hover:before, .buy-now-button:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+.buy-now-button:active {
+    transform: scale(0.9);
+}
+/*  */
