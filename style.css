@@ -1,3 +1,9 @@
+/* .navbar {
+    margin-top: 15px;
+} */
+.bg-light {
+    background: rgb(230, 64, 64);
+}
 .container {
     margin-bottom: 100px;
 }
@@ -69,3 +75,87 @@
     transform: scale(0.9);
 }
 /*  */
+.categories h1 {
+    font-size: 30px;
+    color: #fff;
+}
+.categories img {
+    width: 100px;
+}
+.cat1, .cat2, .cat3 {
+    /* common class */
+    border-radius: 13px;
+    padding: 7px 16.5px;
+}
+.cat1 {
+    /* background-color: #ce9696; */
+    background: linear-gradient(90deg, rgb(228, 116, 88), rgb(255, 194, 194));
+    /* border-radius: 50px;
+    background: #ce9696;
+    box-shadow:  20px 20px 60px #af8080,
+             -20px -20px 60px #edadad; */
+}
+.cat2  {
+    background: linear-gradient(90deg, #8a2be2, rgb(200, 207, 255));
+
+    /* background-color: #8a2be2 */
+    /* border-radius: 75px;
+    background: #8a2be2;
+    box-shadow:  28px 28px 44px #571b8e,
+             -28px -28px 44px #bd3bff;; */
+}
+.cat3 {
+    background: linear-gradient(90deg, #b8860b, rgb(255, 225, 149));
+
+    /* background-color: #b8860b; */
+    /* border-radius: 81px;
+    background: #b8860b;
+    box-shadow:  20px 20px 40px #604606,
+             -20px -20px 40px #ffc610; */
+}
+@media screen and (max-width: 767px) {
+    .div1 {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .div2 {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .div3 {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 13px;
+}
+.card:hover {
+    /* background-color: #ffcccc; */
+    width: 104%;
+
+    border-radius: 27px;
+    background: linear-gradient(145deg, #e6afaf, #ffd0d0);
+    box-shadow:  12px 12px 60px #cf9d9d,
+                 -12px -12px 60px #ffe7e7; 
+}
+.card-footer {
+    background-color: #fff;
+    border-top: none;
+}
+.card-footer > .buy-now-button {
+    margin: 0 auto;
+    font-size: 14px;
+}
+/*  */
+#subscribe h6 {
+    color: #555555;
+}
+/* #subscribe  {
+    height: 300px;
+} */
+.form-text {
+    text-align: left;
+}
