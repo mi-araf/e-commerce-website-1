@@ -1,2 +1,0 @@
-Here, i've written the code according to Programming Hero's panda - commerce webdite. 
-here, Bootstrap also used.
